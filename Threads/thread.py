@@ -1,4 +1,4 @@
-import threading
+import 
 import time
 
 def work():
@@ -6,6 +6,6 @@ def work():
     time.sleep(2)
     print("Finished")
 
-t = threading.Thread(target=work)
+t = .Thread(target=work)
 t.start()
 print("Main Finished")
