@@ -6,7 +6,7 @@
 - [x] Creating your first FastAPI application
 
 ## Core Concepts
-- [ ] Understanding the FastAPI framework
+- [x] Understanding the FastAPI framework
 - [ ] Creating and running a FastAPI application
 - [ ] Understanding the request and response cycle
 - [ ] Working with Pydantic models
