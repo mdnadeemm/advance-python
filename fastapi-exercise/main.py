@@ -61,3 +61,8 @@ class UserResponseDto(BaseModel):
 def user(request: UserCreateDto):
     created_user = {"id": 1, "name": request.name, "email": request.email}
     return created_user
+
+
+@app.put("/users/{user_id}/items/")
+def update_item(user_id: int, q: str | None = None, item: Item = None):
+    return {"user_id": user_id, "q": q, "item": item}

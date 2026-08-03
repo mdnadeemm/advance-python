@@ -10,7 +10,7 @@
 - [x] Creating and running a FastAPI application
 - [x] Understanding the request and response cycle
 - [x] Working with Pydantic models
-- [ ] Using path parameters, query parameters, and request body
+- [x] Using path parameters, query parameters, and request body
 
 ## Advanced Topics
 - [ ] Working with databases (SQLAlchemy, Tortoise-ORM)
