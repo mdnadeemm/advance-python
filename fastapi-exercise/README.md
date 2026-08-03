@@ -7,7 +7,7 @@
 
 ## Core Concepts
 - [x] Understanding the FastAPI framework
-- [ ] Creating and running a FastAPI application
+- [x] Creating and running a FastAPI application
 - [ ] Understanding the request and response cycle
 - [ ] Working with Pydantic models
 - [ ] Using path parameters, query parameters, and request body
