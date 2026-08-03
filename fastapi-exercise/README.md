@@ -9,7 +9,7 @@
 - [x] Understanding the FastAPI framework
 - [x] Creating and running a FastAPI application
 - [x] Understanding the request and response cycle
-- [ ] Working with Pydantic models
+- [x] Working with Pydantic models
 - [ ] Using path parameters, query parameters, and request body
 
 ## Advanced Topics
