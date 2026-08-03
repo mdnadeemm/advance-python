@@ -5,7 +5,7 @@ app  = FastAPI()
 def read_root():
     return {"message": "Hello, FastAPI"}
 
-
+#path variable
 @app.get("/items/{item_id}")
 def read_item(item_id: int):
     return {"item_id": item_id}
@@ -16,3 +16,9 @@ def read_item(item_id: int):
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
+
+# using query parameters
+@app.get("/items/")
+def read_items(skip: int = 0, limit: int = 10):
+    return {"skip": skip, "limit": limit}
